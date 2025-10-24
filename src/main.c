@@ -94,7 +94,8 @@ int main() {
 
     spline spline_da = spline_init(2);
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-    InitWindow(800, 600, "Hello, Raylib!");
+    InitWindow(800, 600, "Splines");
+    MaximizeWindow();
     SetTargetFPS(60);
 
     EditorState editor_state = SELECT;

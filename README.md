@@ -32,8 +32,10 @@ A simple spline editor built with Raylib.
 <!-- say that switching is not implemented yet -->
 - **Left Click**: Add control points.
 - **Left Click + Drag**: Move control points.
-- **J**: Remove the last added control point.
-- **K**: Add back the last removed control point.
+- **KEY J**: Remove the last added control point.
+- **KEY K**: Add back the last removed control point.
+- **KEY C**: Toggle control points visibility.
+- **KEY T**: Toggle connecting lines visibility.
 
 ## TODO
 - Implement switching between editor states (select, draw spline auto, draw spline manual).
