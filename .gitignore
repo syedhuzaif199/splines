@@ -1,0 +1,8 @@
+.vscode/
+build/
+# remove the compiled files in libs/raylib/src folder
+libs/**/*.o
+libs/**/*.obj
+libs/**/*.dll
+libs/**/*.a
+libs/**/*.lib
