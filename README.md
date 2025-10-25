@@ -38,9 +38,9 @@ A simple spline editor built with Raylib.
 - **KEY T**: Toggle connecting lines visibility.
 
 ## TODO
-- Implement switching between editor states (select, draw spline auto, draw spline manual).
-
+- Implement check for determining if a curve is closed.
+- Implement select mode.
 ### Editor Modes
-- **Select Mode**: Select and move existing control points.
-- **Draw Spline Auto Mode**: Auto generate spline handles.
-- **Draw Spline Manual Mode**: Manually place control points for the spline.
+- **Select**: Select and move existing control points.
+- **Pen Tool**: Auto generate spline handles.
+- **Draw Spline Manual**: Manually place control points for the spline.
